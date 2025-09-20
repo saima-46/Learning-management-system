@@ -1,0 +1,43 @@
+.bg-color {
+  background-color: #2a34c3 !important;
+}
+/* banner css start */
+.banner {
+  position: relative;
+  background-image: url("../asset/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.banner p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.search-box input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+}
+.search-box button {
+  width: 20%;
+  background-color: #f44336; 
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+}
+/* card css */
+.card-img-top{
+    object-fit: cover;
+    height: 200px;
+}
