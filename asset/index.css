@@ -120,3 +120,27 @@
 .form-bg{
 background-color:#f44336;
 }
+/* profile */
+.profile-border{
+  display: inline-block;        
+  border-bottom: 5px solid #0d6efd; 
+  padding-bottom: 5px;           
+  margin-bottom: 15px;   
+  font-size: 2rem;
+}
+.teacher-img {
+  max-width: 100%;   
+  height: auto;      
+}
+
+@media (max-width: 768px) {
+  .teacher-img {
+    width: 150px;   /* smaller size on tablets & phones */
+  }
+}
+
+@media (max-width: 576px) {
+  .teacher-img {
+    width: 120px;   /* even smaller on mobile */
+  }
+}
