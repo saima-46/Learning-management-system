@@ -1,3 +1,6 @@
+/* *{
+  
+} */
 .bg-color {
   background-color: #2a34c3 !important;
 }
@@ -30,14 +33,90 @@
 }
 .search-box button {
   width: 20%;
-  background-color: #f44336; 
+  background-color: #f44336;
   border: none;
   padding: 10px;
   color: white;
   font-size: 1rem;
 }
 /* card css */
-.card-img-top{
-    object-fit: cover;
-    height: 200px;
+.card-img {
+  object-fit: cover;
+  height: 200px;
+}
+/* new section */
+
+.scroll-bg {
+  background-image: url("../asset/img/scroll.png");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-card {
+  padding: 30px;
+
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  /* color: white; */
+}
+.stat-card h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f1f5fa;
+}
+.stat-card p {
+  font-size: 1rem;
+  color: white;
+}
+
+/* event card */
+.event-img {
+  height: 250px;
+
+  object-fit: cover;
+}
+
+.event-footer {
+  font-size: 0.9rem;
+  color: #555;
+  padding: 12px 15px;
+  border-top: 1px solid white;
+}
+
+.price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.price.free {
+  color: green;
+}
+
+.event-card .card {
+  width: 100%;
+  margin: auto;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.event-card .card:hover {
+  transform: translateY(-5px);
+}
+/* form */
+.form-bg{
+background-color:#f44336;
 }
